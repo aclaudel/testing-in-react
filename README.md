@@ -38,7 +38,7 @@ Most of the code is plain Typescript and therefore can easily be unit tested.
 JSX Components can give the impression that we are dealing with UI and therefore it's easier
 to do visual tests.
 But in the end, Components are just objects that you instantiate using a different syntax.
-They could render empty <div> everywhere and your tests should still pass, because you're testing
+They could render empty divs everywhere and your tests should still pass, because you're testing
 the display **logic**, not the display itself.  
 
 ## Approach when writing tests
